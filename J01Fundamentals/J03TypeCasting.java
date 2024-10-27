@@ -2,6 +2,20 @@ package J01Fundamentals;
 
 public class J03TypeCasting {
     public static void main(String[] args) {
+
+        /*
+		 * In java there are two types of casting
+		 * 
+		 * 1.) Widening Casting (implicit - automatically)  converting a smaller type to a larger type size
+		 * 		
+		 * 		byte -> short -> char -> int -> long -> float -> double
+		 * 
+		 * 2.) Narrowing Casting (explicit - manually)   converting a larger type to a smaller size type
+		 * 
+		 * 		double -> float -> long -> int -> char -> short -> byte
+		 *
+		 */
+
         int myNum = 10;
         float newNum = myNum;
 

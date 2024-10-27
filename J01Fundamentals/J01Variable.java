@@ -2,6 +2,9 @@ package J01Fundamentals;
 
 public class J01Variable {
     public static void main(String[] args) {
+
+        // variable : variables are container to store data value
+
         int myNum = 10; // intialization and decalaration
         System.out.println(myNum);
 
